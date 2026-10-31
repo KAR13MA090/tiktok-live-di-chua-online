@@ -19,13 +19,6 @@
 [Giao Thức JSON-RPC](#-giao-thức-json-rpc-20-post-rpc--ws)
 </div>
 ---
-## Giới Thiệu Tổng Quan
-**`tiktok-live-di-chua-online`
-** là giải pháp phần mềm mã nguồn mở chuyên nghiệp dành cho các nhà sáng tạo nội dung, streamer TikTok phát trực tiếp chủ đề 
-**Chùa Online / Không Gian Tâm Linh Phật Giáo
-**Hệ thống hoạt động như một máy chủ phát sóng tương tác thời gian thực hai chiều: kết nối trực tiếp vào phòng TikTok Live (kênh mặc định **`@usser`**), tự động lắng nghe hành vi của khán giả thập phương (Thả tim, Bình luận, Chia sẻ, Tặng quà) và hiển thị tức thời các nghi thức lễ Phật uy nghiêm, linh thiêng trên khung hình chuẩn 
-**9:16 (1080×1920)** mà không cần người live phải thao tác thủ công.
----
 ## Tính Năng Nổi Bật
 
 | Tính năng | Mô tả chi tiết |
@@ -40,21 +33,6 @@
 | **Đèn Hoa Đăng Bay Lên** | Mỗi bình luận cầu nguyện, chúc phúc sẽ hóa thành Đèn Hoa Đăng mang tên và lời khấn trôi nhẹ lên nền trời thiền tịnh. |
 | **Đại Lễ Kim Long Chầu Phật** | Kích hoạt hiệu ứng Đại Lễ khi nhận quà giá trị cao: mưa hoa sen vàng, hào quang Phật rực sáng và chuông đồng ngân vang liên tục. |
 | **Siêu Tiết Kiệm CPU / GPU** | Động cơ hạt Canvas 30 FPS với Offscreen Sprite Pre-rendering, tiêu thụ chỉ **~0.1% CPU** khi chờ, an toàn treo máy live 24/7. |
-
----
-
-## Hình Ảnh Demo Giao Diện
-
-### 1. Màn hình Chánh Điện 9:16 & Bảng Điều Khiển Nhanh (`http://localhost:3000`)
-![Màn hình Chánh Điện và Điều Khiển Nhanh](docs/demo/demo-main-stage.png)
-
-### 2. Chế độ OBS Browser Source 9:16 Sạch (`http://localhost:3000/?obs=1`) & Gieo Quẻ Linh Xăm
-| Màn hình OBS 9:16 (`?obs=1`) | Tờ Giải Quẻ Linh Xăm (Đồng bộ Giọng Đọc) |
-| :---: | :---: |
-| ![OBS 9:16 Mode](docs/demo/demo-obs-9x16.png) | ![Fortune Oracle Modal](docs/demo/demo-fortune-oracle.png) |
-
-### 3. Bảng Điều Khiển Quản Trị JSON-RPC 2.0 & Admin (`http://localhost:3000/admin`)
-![Admin JSON-RPC Panel](docs/demo/demo-admin-panel.png)
 
 ---
 
