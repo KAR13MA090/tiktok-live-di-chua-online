@@ -31,7 +31,7 @@
 
 ---
 
-## 🎮 Bảng Quy Tắc Tương Tác TikTok Live
+## Bảng Quy Tắc Tương Tác TikTok Live
 
 Hệ thống tích hợp bộ phân tích ngôn ngữ tự nhiên tiếng Việt (có dấu và không dấu), tự động nhận diện ý định của người xem để kích hoạt nghi thức:
 
@@ -44,7 +44,7 @@ Hệ thống tích hợp bộ phân tích ngôn ngữ tự nhiên tiếng Việt
 | **Bình luận Xin Xăm** | `xin xăm`, `gieo quẻ`, `rút quẻ`, `quẻ`, `xin xam`, `gieo que`, `rut que`, `que` | Ống xăm tre lắc hạt + Mở tờ Giải Quẻ linh ứng khớp chuẩn xác từng chữ với giọng đọc | `+10` |
 | **Tặng quà Nhỏ (1–4 xu)** | Hoa hồng (Rose), Heart Me, Bánh tiêu... | Dâng Đài Hoa Sen Vàng + Thắp 3 nén hương thơm + Đọc lời cảm tạ thí chủ | `+20` / xu |
 | **Tặng quà Vừa (5–99 xu)** | Đèn lưu ly, Mâm ngũ quả, Chuông gió... | Dâng Mâm Ngũ Quả / Đèn Lưu Ly + Thỉnh chuông đồng ngân vang + Đọc lời chúc phúc | `+30` / xu |
-| **Tặng quà Lớn (≥ 100 xu)** | Kim Long, Vương miện, Tràng hoa... | **🐉 ĐẠI LỄ KIM LONG CHẦU PHẬT**: Mưa hoa sen vàng, Hào quang vạn trượng, Chuông Bát Nhã ngân vang | `+50` / xu |
+| **Tặng quà Lớn (≥ 100 xu)** | Kim Long, Vương miện, Tràng hoa... | **ĐẠI LỄ KIM LONG CHẦU PHẬT**: Mưa hoa sen vàng, Hào quang vạn trượng, Chuông Bát Nhã ngân vang | `+50` / xu |
 
 ---
 
