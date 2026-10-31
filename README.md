@@ -20,8 +20,11 @@
 </div>
 ---
 ## Giới Thiệu Tổng Quan
-**`tiktok-live-di-chua-online`** là giải pháp phần mềm mã nguồn mở chuyên nghiệp dành cho các nhà sáng tạo nội dung, streamer TikTok phát trực tiếp chủ đề **Chùa Online / Không Gian Tâm Linh Phật Giáo**.
-Hệ thống hoạt động như một máy chủ phát sóng tương tác thời gian thực hai chiều: kết nối trực tiếp vào phòng TikTok Live (kênh mặc định **`@usser`**), tự động lắng nghe hành vi của khán giả thập phương (Thả tim, Bình luận, Chia sẻ, Tặng quà) và hiển thị tức thời các nghi thức lễ Phật uy nghiêm, linh thiêng trên khung hình chuẩn **9:16 (1080×1920)** mà không cần người live phải thao tác thủ công.
+**`tiktok-live-di-chua-online`
+** là giải pháp phần mềm mã nguồn mở chuyên nghiệp dành cho các nhà sáng tạo nội dung, streamer TikTok phát trực tiếp chủ đề 
+**Chùa Online / Không Gian Tâm Linh Phật Giáo
+**Hệ thống hoạt động như một máy chủ phát sóng tương tác thời gian thực hai chiều: kết nối trực tiếp vào phòng TikTok Live (kênh mặc định **`@usser`**), tự động lắng nghe hành vi của khán giả thập phương (Thả tim, Bình luận, Chia sẻ, Tặng quà) và hiển thị tức thời các nghi thức lễ Phật uy nghiêm, linh thiêng trên khung hình chuẩn 
+**9:16 (1080×1920)** mà không cần người live phải thao tác thủ công.
 ---
 ## Tính Năng Nổi Bật
 
