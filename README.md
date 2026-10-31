@@ -1,4 +1,4 @@
-# 🪷 tiktok-live-di-chua-online
+# tiktok-live-di-chua-online
 
 <div align="center">
 
@@ -12,44 +12,35 @@
   <b>Hệ Thống Phát Trực Tiếp Đi Chùa Online — Tương Tác TikTok Live & JSON-RPC 2.0 Chuẩn Khung Hình Dọc 9:16</b><br/>
   <i>Tích hợp Chánh Điện Đức Phật A Di Đà, Đạo Tràng 40 Phật tử, Bảng Vàng Công Đức, Gieo Quẻ Linh Xăm & Giọng đọc AI Tiếng Việt (Mai Chi).</i>
 </p>
-
-[📸 Xem Demo Giao Diện](#-hình-ảnh-demo-giao-diện) •
-[⚡ Cài Đặt Nhanh](#-hướng-dẫn-cài-đặt--chạy-nhanh) •
-[🎮 Quy Tắc Live](#-bảng-quy-tắc-tương-tác-tiktok-live) •
-[🎥 Thiết Lập OBS](#-hướng-dẫn-thiết-lập-obs-studio--tiktok-live-studio) •
-[🎨 Bản Đồ Assets 01-12](#-bản-đồ-tài-nguyên-đồ-họa-assets-01---12) •
-[🔌 Giao Thức JSON-RPC](#-giao-thức-json-rpc-20-post-rpc--ws)
-
+[Cài Đặt Nhanh](#-hướng-dẫn-cài-đặt--chạy-nhanh) •
+[Quy Tắc Live](#-bảng-quy-tắc-tương-tác-tiktok-live) •
+[Thiết Lập OBS](#-hướng-dẫn-thiết-lập-obs-studio--tiktok-live-studio) •
+[Bản Đồ Assets 01-12](#-bản-đồ-tài-nguyên-đồ-họa-assets-01---12) •
+[Giao Thức JSON-RPC](#-giao-thức-json-rpc-20-post-rpc--ws)
 </div>
-
 ---
-
-## 📖 Giới Thiệu Tổng Quan
-
+## Giới Thiệu Tổng Quan
 **`tiktok-live-di-chua-online`** là giải pháp phần mềm mã nguồn mở chuyên nghiệp dành cho các nhà sáng tạo nội dung, streamer TikTok phát trực tiếp chủ đề **Chùa Online / Không Gian Tâm Linh Phật Giáo**.
-
 Hệ thống hoạt động như một máy chủ phát sóng tương tác thời gian thực hai chiều: kết nối trực tiếp vào phòng TikTok Live (kênh mặc định **`@usser`**), tự động lắng nghe hành vi của khán giả thập phương (Thả tim, Bình luận, Chia sẻ, Tặng quà) và hiển thị tức thời các nghi thức lễ Phật uy nghiêm, linh thiêng trên khung hình chuẩn **9:16 (1080×1920)** mà không cần người live phải thao tác thủ công.
-
 ---
-
-## ✨ Tính Năng Nổi Bật
+## Tính Năng Nổi Bật
 
 | Tính năng | Mô tả chi tiết |
 | :--- | :--- |
-| 🪷 **Chánh Điện A Di Đà 2.5D** | Không gian Chánh Điện tôn nghiêm, tượng Phật A Di Đà trang nghiêm, Lư Hương Đỉnh Đồng, hoành phi câu đối sơn son thếp vàng. |
-| 🚶 **8-Frame Đảnh Lễ Tam Bái** | Nhân vật áo lam bước dọc thảm đỏ hoa sen, quỳ gối thực hiện 3 lạy Ngũ thể đầu địa (`Ngũ thể đầu địa`) chân thực, không nhấp nháy hình ảnh. |
-| 🎙️ **Giọng Đọc AI (Mai Chi)** | Tổng hợp giọng đọc tiếng Việt 48kHz mượt mà, truyền cảm: tự động đọc tên thí chủ, lời khấn nguyện, cảm tạ dâng lễ và lời giải quẻ xăm. |
-| 🎋 **Linh Xăm 18 Quẻ Đồng Bộ** | Lắc ống xăm tre, gieo quẻ và tự động mở tờ Giải Quẻ (Thượng Thượng Cát, Đại Cát...) khớp chính xác từng giây với giọng đọc AI. |
-| 📜 **Bảng Vàng TẤM LÒNG THÀNH** | Tự động ghi nhận và vinh danh Top người xem có điểm Công Đức cao nhất trên 6 Đệm Quỳ Gấm Đỏ VIP và bảng xếp hạng HUD góc phải. |
-| 👥 **Đạo Tràng 40 Vị Trí** | Khán giả vào xem live được tự động sắp xếp chỗ ngồi quỳ lễ hai bên thảm đỏ với bảng tên và avatar cá nhân theo phối cảnh xa gần. |
-| 🔔 **Đại Hồng Chung & Mõ Gỗ** | Pháp khí Web Audio API mô phỏng âm thanh gõ mõ tâm linh và tiếng chuông đồng ngân vang lan tỏa sóng âm vàng đánh thức Đạo Tràng. |
-| 🏮 **Đèn Hoa Đăng Bay Lên** | Mỗi bình luận cầu nguyện, chúc phúc sẽ hóa thành Đèn Hoa Đăng mang tên và lời khấn trôi nhẹ lên nền trời thiền tịnh. |
-| 🐉 **Đại Lễ Kim Long Chầu Phật** | Kích hoạt hiệu ứng Đại Lễ khi nhận quà giá trị cao: mưa hoa sen vàng, hào quang Phật rực sáng và chuông đồng ngân vang liên tục. |
-| ⚡ **Siêu Tiết Kiệm CPU / GPU** | Động cơ hạt Canvas 30 FPS với Offscreen Sprite Pre-rendering, tiêu thụ chỉ **~0.1% CPU** khi chờ, an toàn treo máy live 24/7. |
+| **Chánh Điện A Di Đà 2.5D** | Không gian Chánh Điện tôn nghiêm, tượng Phật A Di Đà trang nghiêm, Lư Hương Đỉnh Đồng, hoành phi câu đối sơn son thếp vàng. |
+| **8-Frame Đảnh Lễ Tam Bái** | Nhân vật áo lam bước dọc thảm đỏ hoa sen, quỳ gối thực hiện 3 lạy Ngũ thể đầu địa (`Ngũ thể đầu địa`) chân thực, không nhấp nháy hình ảnh. |
+| **Giọng Đọc AI (Mai Chi)** | Tổng hợp giọng đọc tiếng Việt 48kHz mượt mà, truyền cảm: tự động đọc tên thí chủ, lời khấn nguyện, cảm tạ dâng lễ và lời giải quẻ xăm. |
+| **Linh Xăm 18 Quẻ Đồng Bộ** | Lắc ống xăm tre, gieo quẻ và tự động mở tờ Giải Quẻ (Thượng Thượng Cát, Đại Cát...) khớp chính xác từng giây với giọng đọc AI. |
+| **Bảng Vàng TẤM LÒNG THÀNH** | Tự động ghi nhận và vinh danh Top người xem có điểm Công Đức cao nhất trên 6 Đệm Quỳ Gấm Đỏ VIP và bảng xếp hạng HUD góc phải. |
+| **Đạo Tràng 40 Vị Trí** | Khán giả vào xem live được tự động sắp xếp chỗ ngồi quỳ lễ hai bên thảm đỏ với bảng tên và avatar cá nhân theo phối cảnh xa gần. |
+| **Đại Hồng Chung & Mõ Gỗ** | Pháp khí Web Audio API mô phỏng âm thanh gõ mõ tâm linh và tiếng chuông đồng ngân vang lan tỏa sóng âm vàng đánh thức Đạo Tràng. |
+| **Đèn Hoa Đăng Bay Lên** | Mỗi bình luận cầu nguyện, chúc phúc sẽ hóa thành Đèn Hoa Đăng mang tên và lời khấn trôi nhẹ lên nền trời thiền tịnh. |
+| **Đại Lễ Kim Long Chầu Phật** | Kích hoạt hiệu ứng Đại Lễ khi nhận quà giá trị cao: mưa hoa sen vàng, hào quang Phật rực sáng và chuông đồng ngân vang liên tục. |
+| **Siêu Tiết Kiệm CPU / GPU** | Động cơ hạt Canvas 30 FPS với Offscreen Sprite Pre-rendering, tiêu thụ chỉ **~0.1% CPU** khi chờ, an toàn treo máy live 24/7. |
 
 ---
 
-## 📸 Hình Ảnh Demo Giao Diện
+## Hình Ảnh Demo Giao Diện
 
 ### 1. Màn hình Chánh Điện 9:16 & Bảng Điều Khiển Nhanh (`http://localhost:3000`)
 ![Màn hình Chánh Điện và Điều Khiển Nhanh](docs/demo/demo-main-stage.png)
@@ -81,7 +72,7 @@ Hệ thống tích hợp bộ phân tích ngôn ngữ tự nhiên tiếng Việt
 
 ---
 
-## 🎨 Bản Đồ Tài Nguyên Đồ Họa (Assets 01 - 12)
+## Bản Đồ Tài Nguyên Đồ Họa (Assets 01 - 12)
 
 Toàn bộ đồ họa trong thư mục `public/assets/` đã được chuẩn hóa theo mã số thứ tự từ `01` đến `12` để dễ dàng quản lý và thay thế skin giao diện theo nhu cầu:
 
@@ -102,7 +93,7 @@ Toàn bộ đồ họa trong thư mục `public/assets/` đã được chuẩn h
 
 ---
 
-## ⚡ Kiến Trúc Kỹ Thuật & Tối Ưu Hiệu Năng
+## Kiến Trúc Kỹ Thuật & Tối Ưu Hiệu Năng
 
 - **Runtime Siêu Nhẹ**: Chạy trên **Bun.js** (hoặc Node.js >= 18), bộ nhớ chiếm dụng `< 70MB RAM`, CPU khi chờ duy trì mức **~0.1%**.
 - **Canvas Particle Engine Khóa 30 FPS (`public/js/particles.js`)**:
@@ -116,12 +107,12 @@ Toàn bộ đồ họa trong thư mục `public/assets/` đã được chuẩn h
   - Tự động khử DC offset, chuẩn hóa đỉnh sóng âm `peak <= 0.90` và áp dụng bộ đệm Cosine Fade chống xước rè loa khi phát trực tiếp.
   - Lưu trữ bộ đệm file âm thanh `.wav` theo mã băm SHA-1 tại `data/tts-cache/`, cùng một câu khấn sẽ không bao giờ tốn tài nguyên đọc lại.
 - **Bộ Lọc Chống Ký Tự Lạ & Spam (`server.js`)**:
-  - Chặn đứng các ký tự Zalgo, chữ Cuneiform Babylon (`𒐫`), chữ Ả Rập gây lag font hệ thống, icon spam và từ ngữ không phù hợp.
+  - Chặn đứng các ký tự Zalgo, chữ Cuneiform Babylon (``), chữ Ả Rập gây lag font hệ thống, icon spam và từ ngữ không phù hợp.
   - Tự động chuẩn hóa chữ viết Unicode `NFKC` về tiếng Việt chuẩn trước khi đọc.
 
 ---
 
-## 🚀 Hướng Dẫn Cài Đặt & Chạy Nhanh
+## Hướng Dẫn Cài Đặt & Chạy Nhanh
 
 ### 1. Yêu cầu môi trường
 - [Bun.js](https://bun.sh/) (Khuyến nghị, phiên bản `>= 1.1`) hoặc [Node.js](https://nodejs.org/) (`>= 18`)
@@ -164,7 +155,7 @@ Sau khi khởi chạy thành công, mở trình duyệt truy cập:
 
 ---
 
-## 🎥 Hướng Dẫn Thiết Lập OBS Studio / TikTok Live Studio
+## Hướng Dẫn Thiết Lập OBS Studio / TikTok Live Studio
 
 1. **Khởi chạy phần mềm OBS Studio** hoặc TikTok Live Studio.
 2. Thêm nguồn mới: Chọn dấu `+` tại bảng **Sources** ➔ Chọn **Browser** (Trình duyệt).
@@ -247,47 +238,6 @@ curl -X POST http://localhost:3000/rpc \
 | `live.setAutoSim` | `enabled` (`true`/`false`) | Bật / tắt chế độ tự động giả lập người xem dâng hương liên tục. |
 
 ---
-
-## 📁 Cấu Trúc Thư Mục
-
-```text
-tiktok-live-di-chua-online/
-├── server.js                  # Máy chủ HTTP Express + WebSocket JSON-RPC 2.0 & TikTok Live Connector
-├── tts_worker.py              # Tiến trình Python thường trú tổng hợp giọng đọc AI (Mai Chi 48kHz)
-├── package.json               # Cấu hình dự án & danh sách thư viện phụ thuộc
-├── data/
-│   ├── merit-state.json       # Lưu trữ bền vững điểm Bảng Vàng Công Đức của khán giả thật
-│   └── tts-cache/             # Bộ nhớ đệm các file âm thanh WAV đã tổng hợp (tiết kiệm CPU)
-├── public/
-│   ├── index.html             # Màn hình Chánh Điện 9:16 + Bảng điều khiển nhanh tiện lợi
-│   ├── admin.html             # Trang quản trị đầy đủ tính năng JSON-RPC & kiểm tra giọng đọc
-│   ├── css/
-│   │   └── live.css           # Bảng phong cách CSS tối ưu GPU Compositor & hiệu ứng Chánh Điện
-│   ├── js/
-│   │   ├── live.js            # Bộ điều phối 8-frame đảnh lễ, Đạo Tràng 40 chỗ ngồi & WebSocket
-│   │   ├── particles.js       # Động cơ hạt 30 FPS Offscreen Canvas (Khói hương, Sóng âm, Hoa sen)
-│   │   └── audio.js           # Bộ xử lý âm thanh Web Audio, Auto-Ducking nhạc nền & Hàng đợi giọng đọc
-│   └── assets/                # Bộ tài nguyên chuẩn hóa đánh số từ 01 đến 12 & file nhạc nền
-│       ├── 01.jpg             # Ảnh nền Chánh Điện Đức Phật A Di Đà (JPG)
-│       ├── 02.png             # Ảnh nền Chánh Điện Đức Phật A Di Đà 8K (PNG)
-│       ├── 03.png             # Tôn tượng Đức Phật A Di Đà tọa đài sen
-│       ├── 04.png             # Frame nhân vật cúi gập 45 độ (bowMid)
-│       ├── 05.png             # Frame nhân vật chắp tay trán (forehead)
-│       ├── 06.png             # Frame nhân vật hạ gối (kneelDown)
-│       ├── 07.png             # Frame nhân vật lạy sát đất Ngũ thể đầu địa (prostrateDeep)
-│       ├── 08.png             # Frame nhân vật chống tay lạy (prostrate)
-│       ├── 09.png             # Frame nhân vật bước đi 2 (walk2)
-│       ├── 10.png             # Frame nhân vật bước đi 1 (walk1)
-│       ├── 11.png             # Frame nhân vật quỳ chắp tay trang nghiêm (kneel)
-│       ├── 12.png             # Ảnh nền Chánh Điện cổ điển thay thế (temple_stage_bg)
-│       └── bg_chant.m4a       # Nhạc nền niệm Nam Mô A Di Đà Phật êm dịu
-└── docs/
-    ├── demo/                  # Ảnh chụp màn hình giao diện thực tế
-    └── superpowers/specs/     # Bản thiết kế kiến trúc kỹ thuật hệ thống
-```
-
----
-
 ## ❓ Câu Hỏi Thường Gặp (FAQ)
 
 <details>
@@ -310,12 +260,3 @@ Chính sách bảo mật của các trình duyệt hiện đại (Chrome, Edge) 
 </details>
 
 ---
-
-## 📜 Giấy Phép & Đóng Góp
-
-Dự án được phân phối dưới giấy phép **MIT License**. Mọi đóng góp cải tiến giao diện, hiệu ứng pháp khí hoặc bổ sung thêm quẻ xăm linh ứng đều được hoan nghênh nồng nhiệt qua Pull Request!
-
-<div align="center">
-  <br/>
-  <b>Nam Mô A Di Đà Phật — Nguyện Cầu Thập Phương Chư Phật Gia Hộ Cho Quý Thí Chủ Vạn Sự Cát Tường Như Ý! 🙏</b>
-</div>
