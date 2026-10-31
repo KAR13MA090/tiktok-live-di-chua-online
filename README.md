@@ -12,13 +12,8 @@
   <b>Hệ Thống Phát Trực Tiếp Đi Chùa Online — Tương Tác TikTok Live & JSON-RPC 2.0 Chuẩn Khung Hình Dọc 9:16</b><br/>
   <i>Tích hợp Chánh Điện Đức Phật A Di Đà, Đạo Tràng 40 Phật tử, Bảng Vàng Công Đức, Gieo Quẻ Linh Xăm & Giọng đọc AI Tiếng Việt (Mai Chi).</i>
 </p>
-[Cài Đặt Nhanh](#-hướng-dẫn-cài-đặt--chạy-nhanh) •
-[Quy Tắc Live](#-bảng-quy-tắc-tương-tác-tiktok-live) •
-[Thiết Lập OBS](#-hướng-dẫn-thiết-lập-obs-studio--tiktok-live-studio) •
-[Bản Đồ Assets 01-12](#-bản-đồ-tài-nguyên-đồ-họa-assets-01---12) •
-[Giao Thức JSON-RPC](#-giao-thức-json-rpc-20-post-rpc--ws)
-</div>
 ---
+
 ## Tính Năng Nổi Bật
 
 | Tính năng | Mô tả chi tiết |
